@@ -47,8 +47,8 @@ var questions = [
       answer: "32 bit"
     },
     {
-      title: "WWhich of the following is true about string?",
-      choices: [ "String is mutable", "String is mutable", "String is a data type", "None of the above"],
+      title: "Which of the following is true about string?",
+      choices: [ "String is mutable", "String is immutable", "String is a data type", "None of the above"],
       answer: "String is mutable"
     },
   ];
