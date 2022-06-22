@@ -1,4 +1,7 @@
 # java-quiz
+## LINKS
+[Github](https://github.com/tahachaudhry/java-quiz) </br>
+[Webpage](https://tahachaudhry.github.io/java-quiz/)
 ## User Story 
 AS A coding boot camp student </br>
 I WANT to take a timed quiz on JavaScript fundamentals that stores high scores</br>
