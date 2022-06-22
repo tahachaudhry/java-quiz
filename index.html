@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Java Coding Quiz</title>
+        <!-- Linking the css style sheet-->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body> 
+    <nav class="scores">
+        <a href="highscores.html"><strong>View High Scores</strong><a>
+    </nav>
+     <div class="timer"><strong>Timer:</strong> <span id="time">0 secs</span></div>
+    <div class="wrapper">
+      <main id="start-page" class="start">
+        <h1> Java Coding Quiz Challenge</h1>
+        <p> 
+            Try to answer the following code-related questions within the time limit. 
+            <br>Keep in mind that incorrect answers will penalize your score/time by ten seconds!</br>
+            <br>Click the "Start Quiz" button to begin</br>
+        </p>
+        <button id="start">Start Quiz</button>
+     </main>
+      <div id="questions" class="hide">
+        <h2 id="question-title"></h2>
+        <div id="choices" class="choices"></div>
+      </div>
+      <div id="last-page" class="hide">
+        <h2>Congratulatios! You Finished the Coding Quiz!</h2>
+        <p>Your final score is: <span id="final-score"></span></p>
+        <p>
+          Enter your initials: <input type="text" id="initials" max="3" />
+          <button id="submit">Submit</button>
+        </p>
+      </div>
+      <div id="remark" class="remark hide"></div>
+    </div>
+    
+        <!-- Linking the two Javascript files-->
+    <script src="./assets/js/questions.js"></script>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
